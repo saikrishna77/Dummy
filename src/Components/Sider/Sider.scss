@@ -7,12 +7,17 @@
     // max-width: 17vw !important;
 
     height: 96vh;
-    // overflow-y: scroll;
+    overflow-y: scroll;
 
     .logo {
       text-align: center;
       // background-color: white;
     }
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .Sider-inside::-webkit-scrollbar {
+    display: none;
   }
   .bottom-sider-menu {
     display: flex;
