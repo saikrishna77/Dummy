@@ -1,0 +1,35 @@
+.site-layout .site-layout-background {
+  display: flex;
+  background: #fff;
+  justify-content: space-between;
+  .logout {
+    display: flex;
+
+    align-items: center;
+    float: right;
+    margin-right: 1vw;
+    p {
+      padding-left: 0.3vw;
+      margin: 0;
+    }
+  }
+  .trigger {
+    .collapse {
+      height: 2vh;
+      width: 3vh;
+      svg {
+        height: 3vh;
+        width: 2vw;
+      }
+    }
+    img {
+      height: 2vh;
+      width: 2vh;
+      margin: 1vw;
+      // svg {
+      //   height: 3vh;
+      //   width: 2vw;
+      // }
+    }
+  }
+}

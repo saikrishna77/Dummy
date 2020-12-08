@@ -1,0 +1,31 @@
+.Sider-main {
+  height: 100vh;
+  // width: 16vw;
+  overflow: hidden;
+  .Sider-inside {
+    // width: 17vw !important;
+    // max-width: 17vw !important;
+
+    height: 96vh;
+    // overflow-y: scroll;
+
+    .logo {
+      text-align: center;
+      // background-color: white;
+    }
+  }
+  .bottom-sider-menu {
+    display: flex;
+    justify-content: space-evenly;
+    height: 4vh;
+    align-items: center;
+    background-color: #00151f;
+  }
+}
+#image-w {
+  color: white;
+  cursor: pointer;
+}
+#image-l {
+  height: 8vh;
+}
